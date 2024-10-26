@@ -1,4 +1,5 @@
-my_string = input('Введите текст, не мение 15 символов: ')
+my_string = input('Введите текст: ')
+print('Количество символов введённого текста:', len(my_string))
 print(my_string.upper())
 print(my_string.lower())
 print(my_string.replace(' ',''))
